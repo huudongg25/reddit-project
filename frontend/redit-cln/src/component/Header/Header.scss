@@ -13,6 +13,8 @@ header {
       border-radius: 16px;
       font-weight: 700;
       font-size: 1rem;
+      text-shadow:1px 1px 3px #2e2e2e;
+      box-shadow: 0.5px 3px 10px #2e2e2e;
   }
   
   
@@ -28,9 +30,15 @@ header {
     font-weight: 700;
     margin-bottom: 0.5rem;
   }
-  .info-age, .info-about {
-      font-size:0.85rem;
-      margin-bottom: 0.5rem;
+  .info-age{
+    margin-bottom: 0.5rem;
+    font-size:0.85rem;
+  }
+  
+  .info-about {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-style: italic;
   }
   
   .info-ava {
